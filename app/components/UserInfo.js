@@ -1,8 +1,8 @@
-var React = require('react');
-var UserRepos = require('./UserRepos');
+import React from 'react'
+import UserRepos from './UserRepos'
 
 function UserInfo(props) {
-  var  userInfo = props.user ?
+  const  userInfo = props.user ?
    (
       <div className="row">
         <div className="col-lg-4">
@@ -25,4 +25,4 @@ UserInfo.propTypes = {
   repos : React.PropTypes.array,
 }
 
-module.exports = UserInfo;
+export default UserInfo
