@@ -26,7 +26,7 @@ const SearchUser = React.createClass({
                 placeholder="Ex.: LedZeck" />
             </div>
             <button
-              type="subit"
+              type="submit"
               className="btn btn-primary">Buscar
             </button>
           </form>
